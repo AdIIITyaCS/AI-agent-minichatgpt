@@ -1,0 +1,107 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# Environments
+.env
+.env.*
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.python-version
+__pypackages__/
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IDEs
+.idea/
+*.iml
+.vs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Credentials and secrets
+*.pem
+*.key
+*.crt
+.secrets/
+secrets.*
+credentials.*
+*.p12
+
+# General caches and temp files
+*.cache
+.cache/
+~$*
